@@ -1,0 +1,21 @@
+{
+  "name": "soft-letters",
+  "version": "1.0.0",
+  "description": "A calm letter-writing app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.softletters.app",
+    "productName": "Soft Letters",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^30.5.1",
+    "electron-builder": "^26.4.0"
+  }
+}
